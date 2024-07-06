@@ -37,7 +37,7 @@ if uploaded_file is not None:
             st.header("Total Messages")
             st.title(num_messages)
         with col2:
-            st.header("Total&nbsp;&nbsp;Words")
+            st.header("Total Words")
             st.title(words)
         with col3:
             st.header("Media Shared")
@@ -127,15 +127,14 @@ if uploaded_file is not None:
 
         # emoji analysis
         emoji_df = helper.emoji_helper(selected_user, df)
+        if emoji_df.shape[0]:
+            st.title("Emoji Analysis")
 
-        st.title("Emoji Analysis")
+            col1, col2 = st.columns(2)
 
-        col1, col2 = st.columns(2)
-
-        with col1:
-            st.dataframe(emoji_df)
-        with col2:
-            fig, ax = plt.subplots()
-            ax.pie(emoji_df[1].head(), labels=emoji_df[0].head(), autopct="%0.2f")
-            st.pyplot(fig)
-
+            with col1:
+                st.dataframe(emoji_df)
+            with col2:
+                fig, ax = plt.subplots()
+                ax.pie(emoji_df[1].head(), labels=emoji_df[0].head(), autopct="%0.2f")
+                st.pyplot(fig)
