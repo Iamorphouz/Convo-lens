@@ -9,7 +9,7 @@ Demo Link: https://whatsapp-chat-analyziz.onrender.com
 
 ![image](https://github.com/Iamorphouz/Whatsapp-Chat-Analyzer/assets/112709100/7943ec0e-bc5b-4bac-9a4b-0198be2a54b5)
 
-![Uploading image.png…]()
+![image](https://github.com/Iamorphouz/Whatsapp-Chat-Analyzer/assets/112709100/582c4791-12ee-4120-abdd-424f8f081062)
 
 ![image](https://github.com/Iamorphouz/Whatsapp-Chat-Analyzer/assets/112709100/68b61912-8fca-4736-ad1f-2c4377f80d4f)
 
